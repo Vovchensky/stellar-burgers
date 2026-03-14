@@ -4,11 +4,13 @@
   display: flex;
   flex-direction: column;
   padding-bottom: 20px;
+  height: 100%;
 }
 
 .elements {
   min-height: 100px;
-
+  flex-grow: 1; /* не работал скролл у бургера как в макете */
+  max-height: 45vh;
   overflow-y: scroll;
   list-style-type: none;
   margin: 0;

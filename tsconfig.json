@@ -28,5 +28,16 @@
       "@selectors": ["src/services/selectors"]
     }
   },
+  "exclude": [
+    "node_modules",
+    "**/*.test.ts",
+    "**/*.test.tsx",
+    "**/*.stories.ts",
+    "**/*.stories.tsx",
+    "src/stories",
+    "cypress",
+    "*.config.js",
+    "*.config.ts"
+  ],
   "include": ["src"]
 }
